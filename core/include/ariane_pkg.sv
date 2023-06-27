@@ -172,6 +172,7 @@ package ariane_pkg;
     localparam bit XF16    = 1'b0; // Is half-precision float extension (Xf16) enabled
     localparam bit XF16ALT = 1'b0; // Is alternative half-precision float extension (Xf16alt) enabled
     localparam bit XF8     = 1'b0; // Is quarter-precision float extension (Xf8) enabled
+    localparam bit XF8ALT  = 1'b0; // Is quarter-precision float extension (Xf8alt) enabled
     localparam bit XFVEC   = 1'b0; // Is vectorial float extension (Xfvec) enabled
 
     // Transprecision float unit
@@ -180,9 +181,11 @@ package ariane_pkg;
     localparam int unsigned LAT_COMP_FP16    = 'd1;
     localparam int unsigned LAT_COMP_FP16ALT = 'd1;
     localparam int unsigned LAT_COMP_FP8     = 'd1;
+    localparam int unsigned LAT_COMP_FP8ALT  = 'd1;
     localparam int unsigned LAT_DIVSQRT      = 'd2;
     localparam int unsigned LAT_NONCOMP      = 'd1;
     localparam int unsigned LAT_CONV         = 'd2;
+    localparam int unsigned LAT_DOTP         = 'd2;
 
     // --------------------------------------
     // vvvv Don't change these by hand! vvvv
